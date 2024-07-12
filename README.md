@@ -29,7 +29,7 @@ dotnet restore
 ```
 4. Compila la solución
 
-##Configuración
+## Configuración
 1. Abre el archivo App.config en el proyecto y configura las secciones de folderPrinterMappings y appSettings según tus necesidades.
 2. Aquí hay un ejemplo de configuración:
 ```bash
@@ -57,7 +57,7 @@ dotnet restore
 </configuration>
 ```
 
-##Uso
+## Uso
 1. Ejecuta el servicio:
 - Abre una terminal con privilegios de administrador y ejecuta los siguientes comandos:
 ```bash
@@ -68,5 +68,5 @@ sc start PDFMonitorService
 ```
 2. Verifica los logs en el Event Viewer de Windows bajo PDFMonitorServiceLog.
 
-##Licencia
+## Licencia
 Este proyecto está bajo una licencia restrictiva. No puede ser utilizado, copiado o distribuido sin el permiso explícito del autor. Para obtener permiso, por favor contacta a vicentac+github@gmail.com
